@@ -1,0 +1,90 @@
+/*-------- Global --------*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.chearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body {
+    width: 60%;
+    margin: auto;
+    background-image: url(images/Hongtao_Fu_Unfinished.jpg);
+    background-position: top;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-color:cadetblue;
+    background-attachment:fixed;
+}
+h1 {
+    font-size: 140px;
+    font-weight: bold;
+    color:bisque
+}
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color:azure
+}
+p {
+    font-size: 25px;
+    font-weight: 400;
+    color:black
+}
+h3 {
+    font-size: 30px;
+    font-weight: normal;
+    color:black;
+    margin-top: 40px;
+    margin-left: 390px
+    
+}
+
+/*-------- Nav --------*/
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100px
+}
+.contactMe, .navIcons {
+    flex: 1;
+}
+.navIcons {
+    text-align: right;
+    
+}
+.navIcons a, .contactMe a, .contactMe img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navIcons a {
+    margin-left: 40px;
+}
+.contactMe a {
+    color: black;
+    text-decoration: none;
+}
+.contactMe img {
+    margin-right: 10px;
+}
+
+/*-------- Skills --------*/
+.skills {
+    text-align: center;
+    margin-top: 8em;
+}
+.skills p {
+    margin-bottom: 30px;
+}
+.skills img {
+    width: 40px;
+    margin: 0 15px;
+}
